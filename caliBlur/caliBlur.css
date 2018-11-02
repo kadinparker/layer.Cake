@@ -192,8 +192,8 @@ body > div.navbar.navbar-default.navbar-static-top > div > div.navbar-collapse.c
     display: none;
 }
 body.blur .row-fluid .col-sm-10{
-    -webkit-animation: fadeIn 1s linear 1; /* Safari & Chrome */ /* Firefox */  /* Opera */
-    animation: fadeIn 1s linear 1;
+    -webkit-animation: fadeIn 0.5s linear 1; /* Safari & Chrome */ /* Firefox */  /* Opera */
+    animation: fadeIn 0.5s linear 1;
 }
 
 .col-sm-10 .book-meta > div.btn-toolbar:after {
@@ -3693,10 +3693,10 @@ body > div.navbar.navbar-default:before {
       -ms-filter: blur(125px);
  
     opacity: .4;
-    -webkit-animation: fade 1s;
-    animation: fade 1s;
-    -moz-animation: fade 1s;
-    -o-animation: fade 1s;
+    -webkit-animation: fade 0.5s;
+    animation: fade 0.5s;
+    -moz-animation: fade 0.5s;
+    -o-animation: fade 0.5s;
     -o-object-fit: cover;
        object-fit: cover;
 }

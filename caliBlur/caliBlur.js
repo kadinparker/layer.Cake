@@ -203,7 +203,7 @@ if ( $( 'body.book' ).length > 0 ) {
     $.each(newdesc, function(i, val) {
     $( 'div.comments' ).append( '<p>' + newdesc[i] + '</p>' );
     });
-    $( '.comments' ).fadeIn(100);
+    $( '.comments' ).fadeIn(50);
   }    //If still a wall of text create 3 sentence paragraphs.
    if( $( '.comments p' ).length === 1 ) {
      if ( description.context != undefined ) {
@@ -237,7 +237,7 @@ if ( $( 'body.book' ).length > 0 ) {
       $( 'div.comments :empty' ).remove();
       $( 'div.comments ').attr( 'style', '' );
       });
-    $( 'div.comments' ).fadeIn( 100 );
+    $( 'div.comments' ).fadeIn( 50 );
   }
 
   // Sexy blurred backgrounds
@@ -496,8 +496,8 @@ $(document).on("click", "a:not(.btn-toolbar a, a[href*='shelf/remove'], .identif
     }
 
     // now, fadeout the html (whole page)
-      $( '.blur-wrapper' ).fadeOut(250);
-    $(".row-fluid .col-sm-10").fadeOut(500,function () {
+      $( '.blur-wrapper' ).fadeOut(125);
+    $(".row-fluid .col-sm-10").fadeOut(250,function () {
         // when the animation is complete, set the new location
         location = newUrl;
     });
